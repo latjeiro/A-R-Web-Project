@@ -106,4 +106,37 @@ body {
     background: 0 0;
     border: 0;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    /*---*/
+    &:hover, &.active{
+      color: #ebd2ab;
+
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 2px;
+      background-color: #cda25c;
+      visibility: hidden;
+      transition: .3s ease-in-out;
+    }
+
+    &:hover::before {
+      width: 100%;
+      visibility: visible;
+    }
 }
+
+.bord {
+  border: none;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+

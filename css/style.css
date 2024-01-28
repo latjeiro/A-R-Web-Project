@@ -98,6 +98,34 @@ body {
   background: 0 0;
   border: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  /*---*/
+}
+.nav-pags:hover, .nav-pags.active {
+  color: #ebd2ab;
+}
+.nav-pags::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #cda25c;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+.nav-pags:hover::before {
+  width: 100%;
+  visibility: visible;
+}
+
+.bord {
+  border: none;
+}
+.bord:focus {
+  box-shadow: none;
+  outline: none;
 }
 
 /*# sourceMappingURL=style.css.map */
