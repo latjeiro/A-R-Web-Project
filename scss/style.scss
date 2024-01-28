@@ -1,17 +1,50 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
   font-family: "Cabin", sans-serif;
 }
 
-.pri {
-  height: 70px;
-  background-color: aqua;
+.nav-modif {
+padding: 0%;
 }
 
-  nav {
-    height: 90px;
-    background-color: red;
+.nav_div-modif{
+  background-color: #b69c95;
+  padding: 12px;
+}
 
+body {
+  background-color: rgb(7, 96, 102);
+}
+
+.pri {
+  background-color: aqua;
+  height: 50px;
+}
+
+.logo {
+  margin: auto;
+  z-index: 1000;
+  top: -10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  position: absolute;
+  height: 98px;
+  width: auto;
+
+}
+
+@media (min-width: 960px) {
+  .logo {
+    left: 10px;
+    right: auto;
+    height: 124px;
+    width: auto;
+    z-index: 2000;
   }
+
+}
+
+
+
