@@ -8,6 +8,21 @@
   }
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245, 225, 201);
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .nav-modif {
 padding: 0%;
 z-index: 600;
@@ -17,10 +32,6 @@ z-index: 600;
   background-color:#372013;
   padding: 12px;
   position: sticky;
-}
-
-body {
-  background-color: rgb(245, 225, 201);
 }
 
 .top {
@@ -169,7 +180,7 @@ body {
 }
 
 .div_footer {
-  min-height: 500px;
+  min-height: 400px;
   background-color: #130805;
   margin-top: 100px;
   bottom: 0;
@@ -184,7 +195,7 @@ body {
 
   .sp_cerrajeria {
     color: #cda25c;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
   }
 
@@ -192,8 +203,14 @@ body {
 
 .sponsor_otros {
   display: flex;
-  align-items: center;
-  margin: 15px;
+  justify-content: space-evenly;
+  margin: 30px;
+  
+
+  .col-6 {
+    height: 120px;
+    width: auto;
+  }
 
 }
 
@@ -201,10 +218,7 @@ body {
   display: flex;
   justify-content: center;
   color: #cda25c;
-}
-
-.acomp {
-  position: sticky;
+  margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
