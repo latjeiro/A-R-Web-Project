@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Cabin", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 * a {
   text-decoration: none;
@@ -119,6 +119,7 @@ body {
   width: 95%;
   top: 47%;
   padding: 2px 5px;
+  font-weight: bolder;
 }
 
 .cajax {
@@ -134,8 +135,10 @@ body {
   object-fit: contain;
 }
 .cajax .col-6 h2 {
+  font-size: 25px;
   color: #cda25c;
   margin-top: 10px;
+  font-weight: 700;
 }
 .cajax .col-6:hover h2 {
   color: #bba074;
