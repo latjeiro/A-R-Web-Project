@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Cabin", sans-serif;
 }
+* a {
+  text-decoration: none;
+}
 
 .nav-modif {
   padding: 0%;
@@ -67,7 +70,6 @@ body {
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
   color: #cda25c;
-  text-decoration: none;
   background: 0 0;
   border: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -108,8 +110,8 @@ body {
   margin-bottom: 20px;
 }
 .div_main img {
-  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .div_main h1 {
   position: absolute;
@@ -129,10 +131,19 @@ body {
 .cajax .col-6 img {
   width: 100%;
   border-radius: 2%;
+  object-fit: contain;
 }
 .cajax .col-6 h2 {
   color: #cda25c;
   margin-top: 10px;
+}
+.cajax .col-6:hover h2 {
+  color: #bba074;
+  transition: 2s;
+}
+.cajax .col-6:hover img {
+  filter: brightness(170%);
+  transition: 2s;
 }
 
 .div_footer {
@@ -206,9 +217,6 @@ body {
   }
   .cajax .col-6 {
     width: 50%;
-  }
-  .sponsor_otros img {
-    height: 100%;
   }
 }
 

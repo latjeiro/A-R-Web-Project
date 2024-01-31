@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   font-family: "Cabin", sans-serif;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .nav-modif {
@@ -69,7 +73,6 @@ body {
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
     color: #cda25c;
-    text-decoration: none;
     background: 0 0;
     border: 0;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -114,8 +117,8 @@ body {
   margin-bottom: 20px;
 
   img {
-    height: 100%;
     width: 100%;
+    object-fit: cover;
   }
 
   h1 {
@@ -133,18 +136,31 @@ body {
 
   .col-6 {
     margin-top: 50px;
-
     width: 100%;
-  
+
     img {
       width: 100%;
       border-radius: 2%; 
+      object-fit: contain;
     }
 
     h2 {
       color: #cda25c;
       margin-top: 10px;
     }
+
+    &:hover {
+      h2 {
+        color: #bba074;
+        transition: 2s;
+      }
+
+      img {
+        filter: brightness(170%); 
+        transition: 2s;
+      }
+    }
+  
   
     }
 }
@@ -235,13 +251,6 @@ body {
     .col-6 {
       width: 50%;
       }
-  }
-  
-
-  .sponsor_otros {
-    img {
-      height: 100%;
-    }
   }
 
 }
