@@ -43,7 +43,7 @@ footer {
 .logo {
   margin: auto;
   z-index: 1000;
-  top: -17px;
+  top: -6px;
   left: 0;
   right: 0;
   text-align: center;
@@ -166,12 +166,15 @@ footer {
   margin-top: 100px;
   bottom: 0;
   width: 100%;
+  cursor: default;
 }
 
 .sponsor_cerrajeria {
   padding-top: 15px;
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid rgba(205, 162, 92, 0.3647058824);
+  border-radius: 80%;
 }
 .sponsor_cerrajeria .sp_cerrajeria {
   color: #cda25c;
