@@ -1,0 +1,50 @@
+footer {
+    margin-top: auto;
+  }
+
+  .div_footer {
+    min-height: 400px;
+    background-color: #130805;
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    cursor: default;
+  }
+  
+  .sponsor_cerrajeria {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #cda25c5d;
+    border-radius: 80%;
+  
+  
+    .sp_cerrajeria {
+      color: #cda25c;
+      font-size: 35px;
+      text-align: center;
+    }
+  
+  }
+  
+  .sponsor_otros {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    
+  
+    .col-6 {
+      height: 120px;
+      width: auto;
+    }
+  
+  }
+  
+  .derechos {
+    display: flex;
+    justify-content: center;
+    color: #cda25c;
+    margin-bottom: 0;
+  }
+
+  

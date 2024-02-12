@@ -1,0 +1,57 @@
+.div_main {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin-bottom: 20px;
+  
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    h1 {
+      position: absolute;
+      color: #ebd2ab;
+      width: 95%;
+      top: 47%;
+      padding: 2px 5px;
+      font-weight: bolder;
+    }
+  
+  }
+  
+  .cajax {
+    margin-bottom: 60px;
+  
+    .col-6 {
+      margin-top: 50px;
+      width: 100%;
+  
+      img {
+        width: 100%;
+        border-radius: 2%; 
+        object-fit: contain;
+      }
+  
+      h2 {
+        font-size: 25px;
+        color: #cda25c;
+        margin-top: 10px;
+        font-weight: 700;
+      }
+  
+      &:hover {
+        h2 {
+          color: #bba074;
+          transition: 2s;
+        }
+  
+        img {
+          filter: brightness(170%); 
+          transition: 2s;
+        }
+      }
+    
+    
+      }
+  }

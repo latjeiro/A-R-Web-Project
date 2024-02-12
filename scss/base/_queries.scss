@@ -1,0 +1,62 @@
+@media (min-width: 992px) {
+    .logo {
+      right: 750px;
+      height: 124px;
+      width: auto;
+      z-index: 2000;
+      top: -15px;
+    }
+  
+    .redes {
+      float: right;
+      position: relative;
+      left: auto;
+      top:-10px;
+  
+      img {
+        height: 26px;
+        filter: invert(6%) sepia(10%) saturate(2000%) hue-rotate(32deg) brightness(20%) contrast(90%);
+      }
+  
+    }
+  
+    .top {
+      height: 50px;
+    }
+  
+    .sitio {  
+      padding: 12px;
+      font-size: medium;
+      font-weight: lighter;
+    }
+  
+    .div_main {
+      height: 80vh;
+  
+      h1 {
+        font-size: 55px;
+        width: 73%;
+        top: 74%;
+      }
+    
+    }
+  
+    .cajax {
+      .col-6 {
+        width: 50%;
+        }
+    }
+  
+    .caja_grande {
+      width: 80%;
+      margin: auto;
+  }
+  .jugador {
+      width: calc(25% - 20px);
+      float: left;
+      margin-right: 20px;
+  }
+  .caja_grande-section {
+      margin-right: 0;
+  }
+  }

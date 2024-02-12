@@ -1,0 +1,46 @@
+.caja_grande {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .caja_grande-section {
+    clear: both;
+    margin-bottom: 20px;
+  
+    h2 {
+      margin-top: 30px;
+    }
+  }
+  .section h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    text-align: center;
+  }
+  .jugador {
+    width: 100%;
+    background-color: #e7c8956c;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.5s ease;   
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .jugador img {
+    width: 100%;
+    border-radius: 10%;
+  }
+  .jugador h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .jugador p {
+    margin: 5px 0;
+    text-align: center;
+  }
+  .jugador:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(165, 129, 76, 0.76);
+  }
+  

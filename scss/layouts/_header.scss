@@ -1,0 +1,29 @@
+.sitio {
+    position: relative;
+    left: 15px;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: small;
+    color: #372013;
+  }
+
+  .redes {
+    z-index: 700;
+    position: absolute;
+    top: 30px;
+    padding: 20px 15px;
+    left: 10px;
+  
+    img {
+      float: left;
+      margin-right: 12px;
+      margin-top: 2px;
+    }
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    background-color:#d1aa6fbb;
+    height: 30px;
+  }
