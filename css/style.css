@@ -20,6 +20,13 @@
   cursor: default;
 }
 
+.carousel-control-prev, .carousel-control-next {
+  opacity: 100;
+}
+.carousel-control-prev img, .carousel-control-next img {
+  height: 50px;
+}
+
 .caja_grande {
   width: 100%;
   padding: 20px;

@@ -13,3 +13,11 @@
     text-decoration:underline;
     cursor: default;
   }
+
+  .carousel-control-prev, .carousel-control-next {
+    opacity: 100;
+    img {
+      height: 50px;
+    }
+
+  }
