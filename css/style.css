@@ -17,6 +17,7 @@
   margin: 30px;
   text-align: center;
   text-decoration: underline;
+  cursor: default;
 }
 
 .caja_grande {
@@ -87,6 +88,7 @@
   width: 95%;
   padding: 2px 5px;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .cajax {
@@ -95,6 +97,7 @@
 .cajax .col-6 {
   margin-top: 50px;
   width: 100%;
+  cursor: pointer;
 }
 .cajax .col-6 img {
   width: 100%;
@@ -167,6 +170,7 @@ footer {
   letter-spacing: 2px;
   color: #372013;
   z-index: 500;
+  cursor: default;
 }
 
 .redes {
