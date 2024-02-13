@@ -1,8 +1,8 @@
 .div_main {
     display: flex;
     justify-content: center;
-    height: 50vh;
     margin-bottom: 20px;
+    align-items: flex-end;
   
     img {
       width: 100%;
@@ -13,7 +13,6 @@
       position: absolute;
       color: #ebd2ab;
       width: 95%;
-      top: 47%;
       padding: 2px 5px;
       font-weight: bolder;
     }
