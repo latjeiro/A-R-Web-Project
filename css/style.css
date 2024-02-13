@@ -160,11 +160,11 @@ footer {
 }
 
 .sitio {
+  font-weight: 400;
   position: relative;
   left: 15px;
   padding: 5px;
   letter-spacing: 2px;
-  font-size: small;
   color: #372013;
   z-index: 500;
 }
@@ -213,11 +213,10 @@ footer {
 }
 
 .nav-pags {
+  font-weight: 600;
   margin-left: 80px;
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  font-size: var(--bs-nav-link-font-size);
-  font-weight: var(--bs-nav-link-font-weight);
   color: #cda25c;
   background: 0 0;
   border: 0;
@@ -275,8 +274,6 @@ footer {
   }
   .sitio {
     padding: 12px;
-    font-size: medium;
-    font-weight: lighter;
   }
   .div_main {
     height: 80vh;
@@ -317,7 +314,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 * a {
   text-decoration: none;
