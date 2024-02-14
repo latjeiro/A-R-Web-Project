@@ -203,6 +203,7 @@ footer {
 }
 
 .sitio {
+  font-size: small;
   font-weight: 400;
   position: relative;
   left: 15px;
@@ -318,6 +319,7 @@ footer {
   }
   .sitio {
     padding: 12px;
+    font-size: large;
   }
   .div_main {
     height: 80vh;
